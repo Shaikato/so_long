@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   pre_init.c                                         :+:      :+:    :+:   */
+/*   build.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 00:01:05 by randre            #+#    #+#             */
-/*   Updated: 2023/12/25 00:31:09 by randre           ###   ########.fr       */
+/*   Updated: 2023/12/26 05:53:07 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,32 @@ static void	empty_handler(char *line)
 	free(line);
 	write(2, "Error\nEmpty map\n", 16);
 	exit (1);
+}
+
+void	get_pos(t_game *game)
+{
+	int	y;
+	int	x;
+
+	y = -1;
+	while (++y < game->lines)
+	{
+		x = -1;
+		while (++x < game->rows)
+		{
+			if (game->map[y][x] == 'P')
+			{
+				game->player_x = x;
+				game->player_y = y;
+			}
+			else if (game->map[y][x] == 'E')
+			{
+				game->exit_x = x;
+				game->exit_y = y;
+			}
+		}
+	}
+	
 }
 
 void	char_verif(t_game *game)
@@ -65,6 +91,7 @@ void	build_map(t_game *game, char *path)
 	}
 	free(line);
 	game->map = ft_split(entire_map, '\n');
+	game->ref_map = ft_split(entire_map, '\n');
 	free(entire_map);
 	char_verif(game);
 }

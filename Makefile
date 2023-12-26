@@ -6,7 +6,7 @@
 #    By: randre <randre@student.s19.be>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/24 23:19:57 by randre            #+#    #+#              #
-#    Updated: 2023/12/25 00:52:15 by randre           ###   ########.fr        #
+#    Updated: 2023/12/26 07:00:42 by randre           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,11 @@ NAME = so_long
 SRC = 	        src/main.c    \
 				src/file_verif.c \
 				src/build.c \
-				src/map_verif.c
+				src/map_verif.c \
+				src/path_verif.c \
+				src/textures_init.c \
+				src/display.c \
+				src/mlx_init.c
 				
 INC = includes/so_long.h
 
@@ -28,7 +32,7 @@ OBJ = $(SRC:.c=.o)
 
 LIBFT_DIR = libft
 MLX_DIR = /usr/local/lib
-MLX:= $(MLX_DIR)/libmlx42.a -ldl -lglfw -pthread -lm
+MLX:= $(MLX_DIR)/libmlx42.a -ldl -lglfw3 -pthread -lm
 
 all: $(NAME)
 

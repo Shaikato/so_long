@@ -1,31 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   display.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/24 23:30:05 by randre            #+#    #+#             */
-/*   Updated: 2023/12/26 06:59:59 by randre           ###   ########.fr       */
+/*   Created: 2023/12/26 06:54:59 by randre            #+#    #+#             */
+/*   Updated: 2023/12/26 07:02:36 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/so_long.h"
 
-int	main(int argc, char **argv)
+void	display_ground(t_game *game)
 {
-	t_game	game;
+	int	y;
+	int	x;
 
-	if (argc != 2)
+	y = -1;
+	while (++y < game->lines)
 	{
-		write(2, "Error\nWrong number of arguments\n", 33);
-		return (1);
+		x = -1;
+		while (++x < game->rows)
+			if (game->map[y][x] != '1')
+			{
+				mlx_image_to_window(game->mlx, game->sprites[0], x * game->img_pxl, y
+					* game->img_pxl);
+			}
 	}
-	file_verif(argv[1]);
-	build_map(&game, argv[1]);
-	map_check(&game);
-	get_pos(&game);
-	path_check(&game);
-	init_game(&game);
-	mlx_loop(game.mlx);
+}
+
+void	init_display(t_game *game)
+{
+	display_ground(game);
 }

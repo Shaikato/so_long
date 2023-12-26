@@ -6,14 +6,14 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 23:30:14 by randre            #+#    #+#             */
-/*   Updated: 2023/12/25 00:51:40 by randre           ###   ########.fr       */
+/*   Updated: 2023/12/26 07:01:33 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 
-# include <MLX42.h>
+# include <MLX42/MLX42.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include "../libft/libft.h"
@@ -35,15 +35,22 @@ typedef struct s_game
 	int			collectables;
 	int			total_collectables;
 	int			moves;
-	int			current_x;
-	int			current_y;
-	int			end_x;
-	int			end_y;
+	int			player_x;
+	int			player_y;
+	int			exit_x;
+	int			exit_y;
 }				t_game;
 
 /*		Verification/Build		*/
 void	file_verif(char *path);
 void	build_map(t_game *game, char *path);
 void	map_check(t_game *game);
+void	get_pos(t_game *game);
+void	path_check(t_game *game);
+
+/*		MLX Init/Window			*/
+void	init_game(t_game *game);
+void	init_textures(t_game *game);
+void	init_display(t_game *game);
 
 #endif
