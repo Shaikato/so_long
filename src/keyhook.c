@@ -1,22 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   mlx_init.c                                         :+:      :+:    :+:   */
+/*   keyhook.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/25 00:00:45 by randre            #+#    #+#             */
-/*   Updated: 2023/12/26 11:25:47 by randre           ###   ########.fr       */
+/*   Created: 2023/12/26 11:49:33 by randre            #+#    #+#             */
+/*   Updated: 2023/12/26 11:52:03 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/so_long.h"
 
-void	init_game(t_game *game)
+void	key_press(struct mlx_key_data keycode, void *param)
 {
-	game->img_pxl = 32;
-	game->mlx = mlx_init(game->img_pxl * game->rows, 
-		game->img_pxl * game->lines, "so_long", true);
-	init_textures(game);
-	init_display(game);
+	t_game	*game;
+
+	game = (t_game*)param;
+	
 }

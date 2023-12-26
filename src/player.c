@@ -1,22 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   mlx_init.c                                         :+:      :+:    :+:   */
+/*   player.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/25 00:00:45 by randre            #+#    #+#             */
-/*   Updated: 2023/12/26 11:25:47 by randre           ###   ########.fr       */
+/*   Created: 2023/12/26 11:29:15 by randre            #+#    #+#             */
+/*   Updated: 2023/12/26 11:32:05 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/so_long.h"
 
-void	init_game(t_game *game)
+void	display_player(t_game *game)
 {
-	game->img_pxl = 32;
-	game->mlx = mlx_init(game->img_pxl * game->rows, 
-		game->img_pxl * game->lines, "so_long", true);
-	init_textures(game);
-	init_display(game);
+	mlx_image_to_window(game->mlx, game->sprites[4], game->player_x * game->img_pxl, game->player_y
+					* game->img_pxl);
 }

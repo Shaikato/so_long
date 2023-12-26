@@ -6,7 +6,7 @@
 #    By: randre <randre@student.s19.be>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/24 23:19:57 by randre            #+#    #+#              #
-#    Updated: 2023/12/26 07:00:42 by randre           ###   ########.fr        #
+#    Updated: 2023/12/26 11:45:34 by randre           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,8 @@ SRC = 	        src/main.c    \
 				src/path_verif.c \
 				src/textures_init.c \
 				src/display.c \
-				src/mlx_init.c
+				src/mlx_init.c \
+				src/player.c
 				
 INC = includes/so_long.h
 
@@ -32,7 +33,7 @@ OBJ = $(SRC:.c=.o)
 
 LIBFT_DIR = libft
 MLX_DIR = /usr/local/lib
-MLX:= $(MLX_DIR)/libmlx42.a -ldl -lglfw3 -pthread -lm
+MLX:= $(MLX_DIR)/libmlx42.a -ldl -lglfw -pthread -lm
 
 all: $(NAME)
 

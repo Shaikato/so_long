@@ -6,14 +6,14 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 23:30:14 by randre            #+#    #+#             */
-/*   Updated: 2023/12/26 07:01:33 by randre           ###   ########.fr       */
+/*   Updated: 2023/12/26 11:50:51 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 
-# include <MLX42/MLX42.h>
+# include <MLX42.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include "../libft/libft.h"
@@ -52,5 +52,9 @@ void	path_check(t_game *game);
 void	init_game(t_game *game);
 void	init_textures(t_game *game);
 void	init_display(t_game *game);
+void	display_player(t_game *game);
+
+/*		Key_hook/Events			*/
+void	key_press(struct mlx_key_data keycode, void *param);
 
 #endif
