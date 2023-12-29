@@ -6,7 +6,7 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 23:30:05 by randre            #+#    #+#             */
-/*   Updated: 2023/12/26 11:50:20 by randre           ###   ########.fr       */
+/*   Updated: 2023/12/29 11:06:57 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,6 @@ int	main(int argc, char **argv)
 	path_check(&game);
 	init_game(&game);
 	mlx_key_hook(game.mlx, &key_press, &game);
+	mlx_close_hook(game.mlx, &ft_close, &game);
 	mlx_loop(game.mlx);
 }

@@ -6,14 +6,14 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 23:30:14 by randre            #+#    #+#             */
-/*   Updated: 2023/12/26 11:50:51 by randre           ###   ########.fr       */
+/*   Updated: 2023/12/29 11:06:20 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 
-# include <MLX42.h>
+# include <MLX42/MLX42.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include "../libft/libft.h"
@@ -47,6 +47,8 @@ void	build_map(t_game *game, char *path);
 void	map_check(t_game *game);
 void	get_pos(t_game *game);
 void	path_check(t_game *game);
+void	true_bounds(t_game *game, int x, int y);
+int		check_cross(int x, int y, t_game *game);
 
 /*		MLX Init/Window			*/
 void	init_game(t_game *game);
@@ -56,5 +58,14 @@ void	display_player(t_game *game);
 
 /*		Key_hook/Events			*/
 void	key_press(struct mlx_key_data keycode, void *param);
+void	w_move(t_game *game);
+void	a_move(t_game *game);
+void	s_move(t_game *game);
+void	d_move(t_game *game);
+void	check_pos(t_game *game);
+
+/*			Terminate			*/
+void	clean_close(t_game *game);
+void	ft_close(void *param);
 
 #endif

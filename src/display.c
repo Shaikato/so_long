@@ -6,7 +6,7 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/26 06:54:59 by randre            #+#    #+#             */
-/*   Updated: 2023/12/26 11:45:19 by randre           ###   ########.fr       */
+/*   Updated: 2023/12/29 11:25:47 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,9 @@ void	display_ground(t_game *game)
 	{
 		x = -1;
 		while (++x < game->rows)
-				mlx_image_to_window(game->mlx, game->sprites[0], x * game->img_pxl, y
-					* game->img_pxl);
+			mlx_image_to_window(game->mlx, game->sprites[0],
+				x * game->img_pxl,
+				y * game->img_pxl);
 	}
 }
 
@@ -37,11 +38,14 @@ void	display_obs(t_game *game)
 	{
 		x = -1;
 		while (++x < game->rows)
+		{
 			if (game->map[y][x] == '1')
 			{
-				mlx_image_to_window(game->mlx, game->sprites[1], x * game->img_pxl, y
-					* game->img_pxl);
+				mlx_image_to_window(game->mlx, game->sprites[1],
+					x * game->img_pxl,
+					y * game->img_pxl);
 			}
+		}
 	}
 }
 
@@ -55,11 +59,14 @@ void	display_coll(t_game *game)
 	{
 		x = -1;
 		while (++x < game->rows)
+		{
 			if (game->map[y][x] == 'C')
 			{
-				mlx_image_to_window(game->mlx, game->sprites[2], x * game->img_pxl, y
-					* game->img_pxl);
+				mlx_image_to_window(game->mlx, game->sprites[2],
+					x * game->img_pxl,
+					y * game->img_pxl);
 			}
+		}
 	}
 }
 
@@ -73,11 +80,14 @@ void	display_exit(t_game *game)
 	{
 		x = -1;
 		while (++x < game->rows)
+		{
 			if (game->map[y][x] == 'E')
 			{
-				mlx_image_to_window(game->mlx, game->sprites[2], x * game->img_pxl, y
-					* game->img_pxl);
+				mlx_image_to_window(game->mlx, game->sprites[3],
+					x * game->img_pxl,
+					y * game->img_pxl);
 			}
+		}
 	}
 }
 

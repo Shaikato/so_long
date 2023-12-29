@@ -6,7 +6,7 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 00:01:05 by randre            #+#    #+#             */
-/*   Updated: 2023/12/26 05:53:07 by randre           ###   ########.fr       */
+/*   Updated: 2023/12/29 11:30:59 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,6 @@ void	get_pos(t_game *game)
 			}
 		}
 	}
-	
 }
 
 void	char_verif(t_game *game)
@@ -54,7 +53,7 @@ void	char_verif(t_game *game)
 	while (y < game->lines)
 	{
 		x = 0;
-		while(x < game->rows)
+		while (x < game->rows)
 		{
 			if (game->map[y][x] != '0' && game->map[y][x] != '1'
 			&& game->map[y][x] != 'C' && game->map[y][x] != 'P'

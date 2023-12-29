@@ -6,7 +6,7 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 00:37:14 by randre            #+#    #+#             */
-/*   Updated: 2023/12/25 05:09:51 by randre           ###   ########.fr       */
+/*   Updated: 2023/12/29 11:27:11 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,23 +44,24 @@ int	check_rectangle(t_game *game)
 {
 	int	y;
 	int	len;
-	
+
 	y = 0;
 	while (y > game->lines)
 	{
 		len = ft_strlen(game->map[y]);
 		if (len != game->rows)
 			return (1);
-		y++;	
+		y++;
 	}
 	return (0);
 }
+
 int	check_values(t_game *game)
 {
 	int	y;
 	int	x;
 	int	tab[3];
-	
+
 	y = -1;
 	tab[0] = 0;
 	tab[1] = 0;
