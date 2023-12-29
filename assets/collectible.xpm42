@@ -1,269 +1,99 @@
 !XPM42
-64 64 203 2 c
-   #00000000
-.  #000000FF
-X  #000101FF
-o  #000202FF
-O  #040000FF
-+  #060000FF
-@  #000404FF
-#  #000606FF
-$  #0B0000FF
-%  #0D0000FF
-&  #0C0303FF
-*  #070808FF
-=  #000C0CFF
--  #80808FF
-;  #090808FF
-:  #0A0909FF
->  #0B0909FF
-,  #A0A0AFF
-<  #0B0A0AFF
-1  #0D0B0BFF
-2  #0D0C0CFF
-3  #2B0000FF
-4  #2C0101FF
-5  #2E0101FF
-6  #2F0202FF
-7  #330000FF
-8  #340000FF
-9  #350000FF
-0  #3A0000FF
-q  #201F1FFF
-w  #0C2727FF
-e  #323232FF
-r  #343434FF
-t  #353535FF
-y  #363535FF
-u  #363636FF
-i  #383737FF
-p  #383838FF
-a  #383939FF
-s  #3A3939FF
-d  #3A3A3AFF
-f  #3B3A3AFF
-g  #3B3B3BFF
-h  #3C3B3BFF
-j  #3D3C3CFF
-k  #470000FF
-l  #4D0000FF
-z  #4E0000FF
-x  #550000FF
-c  #570000FF
-v  #660404FF
-b  #6E0000FF
-n  #740000FF
-m  #750000FF
-M  #7C0202FF
-N  #493131FF
-B  #4A3232FF
-V  #692C2CFF
-C  #782A2AFF
-Z  #404040FF
-A  #474040FF
-S  #484141FF
-D  #404D4DFF
-F  #4F4B4BFF
-G  #4E4E4EFF
-H  #4F5050FF
-J  #515050FF
-K  #525353FF
-L  #5F5F5FFF
-P  #7C4444FF
-I  #715A5AFF
-U  #5E7777FF
-Y  #606060FF
-T  #850000FF
-R  #860000FF
-E  #890000FF
-W  #8A0101FF
-Q  #8C0101FF
-!  #8B0F0FFF
-~  #920000FF
-^  #940000FF
-/  #940202FF
-(  #950404FF
-)  #960404FF
-_  #970404FF
-`  #980000FF
-'  #990000FF
-]  #9B0000FF
-[  #9D0000FF
-{  #9A1212FF
-}  #A70606FF
-|  #A80000FF
- . #A90000FF
-.. #A90101FF
-X. #AC0000FF
-o. #AD0404FF
-O. #B30000FF
-+. #B10404FF
-@. #B80000FF
-#. #BD0000FF
-$. #BE0000FF
-%. #B90707FF
-&. #BC0404FF
-*. #A01313FF
-=. #8A2323FF
--. #C00000FF
-;. #C10000FF
-:. #C20000FF
->. #C20202FF
-,. #C50000FF
-<. #C60000FF
-1. #C70000FF
-2. #C50303FF
-3. #C70505FF
-4. #C80000FF
-5. #C90000FF
-6. #CA0000FF
-7. #CC0000FF
-8. #CE0000FF
-9. #C90707FF
-0. #C90909FF
-q. #D10101FF
-w. #D30000FF
-e. #D40000FF
-r. #D50000FF
-t. #DA0000FF
-y. #DB0000FF
-u. #DA0101FF
-i. #DD0000FF
-p. #DC0101FF
-a. #DE0000FF
-s. #DF0000FF
-d. #DE0101FF
-f. #DF0202FF
-g. #E00000FF
-h. #E10000FF
-j. #E20000FF
-k. #E40000FF
-l. #E50000FF
-z. #E60000FF
-x. #E70000FF
-c. #E80000FF
-v. #E90000FF
-b. #EA0000FF
-n. #EB0000FF
-m. #EC0000FF
-M. #ED0000FF
-N. #EE0000FF
-B. #EF0000FF
-V. #F00000FF
-C. #F10000FF
-Z. #F20000FF
-A. #F30000FF
-S. #F50000FF
-D. #F60000FF
-F. #F70000FF
-G. #F80000FF
-H. #FA0000FF
-J. #FB0000FF
-K. #FC0000FF
-L. #FD0000FF
-P. #FE0000FF
-I. #FF0000FF
-U. #FF0C0CFF
-Y. #FF1E1EFF
-T. #E42222FF
-R. #FF2323FF
-E. #FE2E2EFF
-W. #FF2E2EFF
-Q. #FE3737FF
-!. #FF3D3DFF
-~. #FF4242FF
-^. #FF4343FF
-/. #FF4646FF
-(. #FF4747FF
-). #FF4D4DFF
-_. #FF5353FF
-`. #FD5757FF
-'. #FF5959FF
-]. #FF6262FF
-[. #FF6565FF
-{. #FD6969FF
-}. #FF6868FF
-|. #FF6C6CFF
- X #FF6D6DFF
-.X #FF6F6FFF
-XX #FF8080FF
-oX #FE8484FF
-OX #FB9090FF
-+X #FFAAAAFF
-@X #FEADADFF
-#X #FFBFBFFF
-$X #FFC2C2FF
-%X #FEC3C3FF
-&X #FEC9C9FF
-*X #FECFCFFF
-=X #FFF1F1FF
--X #FFF5F5FF
-;X #FFF8F8FF
-:X #FCFEFEFF
->X #FCFFFFFF
-,X #FEFFFFFF
-<X #FFFFFFFF
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                          - - 1 - - F                     - - 2 1 - -                                           
-                                          @ @ @ @ @ D                     = @ @ @ @ .                                           
-                                    t a N 3.9.9.9.9.*.a t             a N 0.9.9.9.%.1.a t t                                     
-                                    . . + I.I.I.I.I.4.. .             . + I.I.I.I.I.I.. . .                                     
-                                    ' ' } E.}.OX`.Y.T.' ' I         P '  .I.I.I.I.A.I.~ ' ^                                     
-                              G . . I.I.U.].*X<X@X~.(.I.I.+ . . . . x I.I.I.I.I.I.I.I.I.I.I.. .                                 
-                              U . . I.I.I.!.#X<X+X~.(.I.I.. . . . . k I.I.I.I.I.I.I.I.x.S.A.. .                                 
-                          q . [ I.I.}.)..X=XE.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.b.f.I.l . H                           
-                          a . ) I.I..X'..X$XQ.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.b.>.x.x .                             
-                          h . ) I.I.<X-X$XI.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.b.>.x.x . Y                           
-                          a . ) I.I.<X;X&XI.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.b.>.x.x .                             
-                          i . ) I.I.oXXX[.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.b.>.x.x .                             
-                          h . ) I.I..X.X_.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.b.>.x.x . Y                           
-                          j . ) I.I.E.E.R.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.b.>.x.x . L                           
-                          a . ) I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.b.>.x.x .                             
-                            S =.O.X.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.H.H.f.x.g.R ' V A                             
-                                . . I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.g.m.$.8.1.. .                                 
-                                . . I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.m.>.8.4.. .                                 
-                                . . I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.m.>.8.4.. .                                 
-                                . . I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.A.1.r.8.. .                                 
-                                . . I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.b.m.q.f.u.. .                                 
-                                    9 9 l I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.A.b.1.x.5 5 5                                     
-                                    . . . I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.I.S.m.g.I.. . .                                     
-                                          W f.I.I.I.I.I.I.I.I.I.I.I.I.I.I.S.S.g.r.v M                                           
-                                          .  .I.I.I.I.I.I.I.I.I.I.I.I.I.I.x.b.4.@.. .                                           
-                                          a { &.f.I.I.I.I.I.I.I.I.I.I.H.S.f.b. .Q Z a                                           
-                                            a . m I.I.I.I.I.I.I.I.I.S.m.x.q.m.3 .                                               
-                                                  % l I.I.I.I.I.x.A.f.u.+.% $                                                   
-                                                  . 7 I.I.I.I.I.x.m.u.u.o.. .                                                   
-                                                  . 0 I.I.I.I.I.b.A.x.A.$.. .                                                   
-                                                      . . >.I.m.@.x.m . w                                                       
-                                                      . . x.I.I.g.I.W . .                                                       
-                                                          ! ' ^ b R C                                                           
-                                                          * . . . . J                                                           
-                                                          J t t t e                                                             
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
+64 64 33 1 c
+  #00000000
+. #000000FF
+X #000303FF
+o #050000FF
+O #000600FF
++ #000306FF
+@ #000404FF
+# #000704FF
+$ #090006FF
+% #04000AFF
+& #B22023FF
+* #DC0610FF
+= #CA151CFF
+- #DD101FFF
+; #F30600FF
+: #F60400FF
+> #F70400FF
+, #FA0300FF
+< #FA0203FF
+1 #FD0100FF
+2 #FE0000FF
+3 #FE0002FF
+4 #F80400FF
+5 #FB0009FF
+6 #FA0109FF
+7 #FE000CFF
+8 #D71520FF
+9 #ECD1C6FF
+0 #F8DCDBFF
+q #ECE4D7FF
+w #F5E1D8FF
+e #FFFFFDFF
+r #FFFFFFFF
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                  ..........         ..........                 
+                  ..........         ..........                 
+                  oooooooooo         oooooooooo                 
+              ...%<<<<<<<<<<$..   ..%<<<<<<<<<<$...             
+              ...O2222222222...   ..O2222222222....             
+              ...O2222222222...   ..O2222222222....             
+              #++#2222222222###   #+#2222222222####             
+           ...2;;<2222222222>;2...2;<2222222222>;;2...          
+           ...222229qw=22222222...22222222222222222...          
+           ...2222>0rr&22222222ooo22222222222222222...          
+           ...2222>0rr&22222226<<<62222222222222222...          
+           ...22222*-872222222222222222222222222222...          
+           ...2222222222222222222222222222222222222...          
+           ...2222222222222222222222222222222222222...          
+           ...2222222222222222222222222222222222222...          
+           ...2222222222222222222222222222222222222...          
+           ...2222222222222222222222222222222222222...          
+           ...2222222222222222222222222222222222222...          
+           ...2222222222222222222222222222222222222...          
+           ...2;;422222222222222222222222222222>;;2...          
+              #++#22222222222222222222222222222####             
+              ...O22222222222222222222222222222....             
+              ...%<<<62222222222222222222226<<<$...             
+                  ooo22222222222222222222222ooo                 
+                  ...22222222222222222222222...                 
+                  ...22222222222222222222222...                 
+                  ...2;422222222222222222>;2...                 
+                     #+#22222222222222222###                    
+                     ..O22222222222222222...                    
+                     ..%<<<<622222226<<<<$..                    
+                        oooo222222222oooo                       
+                        ....222222222....                       
+                        ....2;4222>;2....                       
+                            #+#222###                           
+                            ..O222...                           
+                            ..O222...                           
+                            ..%<<<$..                           
+                               ooo                              
+                               ...                              
+                               ...                              
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
