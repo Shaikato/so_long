@@ -6,7 +6,7 @@
 #    By: randre <randre@student.s19.be>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/24 23:19:57 by randre            #+#    #+#              #
-#    Updated: 2023/12/29 10:51:08 by randre           ###   ########.fr        #
+#    Updated: 2024/01/08 12:35:16 by randre           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,8 +36,8 @@ FLAGS = -Wall -Wextra -Werror -g -fsanitize=address
 OBJ = $(SRC:.c=.o)
 
 LIBFT_DIR = libft
-MLX_DIR = /usr/local/lib
-MLX:= $(MLX_DIR)/libmlx42.a -ldl -lglfw3 -pthread -lm
+MLX_DIR = MLX/
+MLX:= $(MLX_DIR)/libmlx42.a -ldl -lglfw -pthread -lm
 
 all: $(NAME)
 
@@ -45,7 +45,7 @@ $(NAME): $(OBJ)
 	@make -C libft
 	@make -C ft_printf
 	@make -C get_next_line
-	$(CC) $(FLAGS) $(OBJ)  libft/libft.a ft_printf/libftprintf.a get_next_line/get_next_line.a $(MLX) -o $(NAME)
+	$(CC) $(FLAGS) $(OBJ)  libft/libft.a ft_printf/libftprintf.a get_next_line/get_next_line.a $(MLX) -L"/Users/$(USER)/.brew/opt/glfw/lib/" -framework Cocoa -framework OpenGL -framework IOKit -o $(NAME)
 
 clean:
 	@make clean -C libft

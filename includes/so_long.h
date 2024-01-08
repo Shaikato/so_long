@@ -6,14 +6,14 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 23:30:14 by randre            #+#    #+#             */
-/*   Updated: 2023/12/29 11:06:20 by randre           ###   ########.fr       */
+/*   Updated: 2024/01/08 12:12:07 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 
-# include <MLX42/MLX42.h>
+# include "../MLX/MLX42.h"
 # include <unistd.h>
 # include <stdlib.h>
 # include "../libft/libft.h"

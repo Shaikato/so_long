@@ -6,7 +6,7 @@
 /*   By: randre <randre@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 00:00:45 by randre            #+#    #+#             */
-/*   Updated: 2023/12/29 11:27:42 by randre           ###   ########.fr       */
+/*   Updated: 2024/01/08 12:25:19 by randre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	init_game(t_game *game)
 {
 	game->img_pxl = 64;
 	game->mlx = mlx_init(game->img_pxl * game->rows,
-			game->img_pxl * game->lines, "so_long", true);
+			game->img_pxl * game->lines, "so_long", false);
 	game->moves = 0;
 	game->collectables = 0;
 	init_textures(game);
